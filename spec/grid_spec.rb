@@ -23,16 +23,3 @@ RSpec.describe '#Generate matrix' do
   end
 end
 
-# Testing for draw method from grid class
-RSpec.describe '#Draw' do
-  context "elements" do
-    it "should be a string (. or *)" do
-      grid = Grid.new(3,5)
-      grid.generate_matrix
-      grid.draw(grid.grid2)
-      grid.grid2.each do |row, col|
-        expect(grid.grid2[row][col].class).to eq String
-      end
-    end
-  end
-end
