@@ -47,7 +47,11 @@
     <div class="file-time">
       <span class="committed-at">
         
+<<<<<<< HEAD
           Never committed
+=======
+          Updated <time class='js-timeago' datetime='2021-11-30 18:16:05 -0600'>2021-11-30 18:16:05 -0600</time>
+>>>>>>> 4660df09b9c2feff1fdddc4e9395ee04cd7d08de
         
       </span>
     </div>
@@ -62,22 +66,39 @@
       <div class="col-md-8">
         <div class="row">
           <div class="col-md-1">
+<<<<<<< HEAD
             <div class="rating a big">
               A
+=======
+            <div class="rating b big">
+              B
+>>>>>>> 4660df09b9c2feff1fdddc4e9395ee04cd7d08de
             </div>
           </div>
           <div class="code-statistics col-md-11">
             <div class="col-md-3">
+<<<<<<< HEAD
               <div><span class="metric">24</span><small> lines of codes</small></div>
+=======
+              <div><span class="metric">39</span><small> lines of codes</small></div>
+>>>>>>> 4660df09b9c2feff1fdddc4e9395ee04cd7d08de
               <div><span class="metric">0</span><small> methods</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">N/A</span><small> complexity/method</small></div>
+<<<<<<< HEAD
               <div><span class="metric">0</span><small> churn</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">42.85</span><small> complexity</small></div>
               <div><span class="metric">0</span><small> duplications</small></div>
+=======
+              <div><span class="metric">1</span><small> churn</small></div>
+            </div>
+            <div class="col-md-3">
+              <div><span class="metric">67.27</span><small> complexity</small></div>
+              <div><span class="metric">32</span><small> duplications</small></div>
+>>>>>>> 4660df09b9c2feff1fdddc4e9395ee04cd7d08de
             </div>
           </div>
         </div>
@@ -88,7 +109,11 @@
             <li><a href="#" id="toggle-code" class="toggle-button button">code</a></li>
             <li class="active">
               <a href="#" id="toggle-smells" class="toggle-button button">
+<<<<<<< HEAD
                 0
+=======
+                1
+>>>>>>> 4660df09b9c2feff1fdddc4e9395ee04cd7d08de
                 smell
               </a>
             </li>
@@ -115,12 +140,34 @@ RSpec.describe &#39;#Generate matrix&#39; do
     it &quot;cannot be equal to nil&quot; do
       grid = Grid.new(3,5)
       grid.generate_matrix
+<<<<<<< HEAD
       grid.grid2.each do |row, col|
+=======
+      grid.grid2.each do |row, col|<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 2 nodes</span>              <span>Locations:</span>                  <a href="grid_spec.html#L19" class="js-smell-location">0</a>                  <a href="grid_spec.html#L34" class="js-smell-location">1</a>                  </div>  </li></ol>
+>>>>>>> 4660df09b9c2feff1fdddc4e9395ee04cd7d08de
         expect(grid.grid2[row][col].class).to eq Integer
       end
     end
   end
 end
+<<<<<<< HEAD
+=======
+
+# Testing for draw method from grid class
+
+RSpec.describe &#39;#Draw&#39; do
+  context &quot;elements&quot; do
+    it &quot;should be a string (. or *)&quot; do
+      grid = Grid.new(3,5)
+      grid.generate_matrix
+      grid.draw(grid.grid2)
+      grid.grid2.each do |row, col|<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 2 nodes</span>              <span>Locations:</span>                  <a href="grid_spec.html#L19" class="js-smell-location">0</a>                  <a href="grid_spec.html#L34" class="js-smell-location">1</a>                  </div>  </li></ol>
+        expect(grid.grid2[row][col].class).to eq String
+      end
+    end
+  end
+end
+>>>>>>> 4660df09b9c2feff1fdddc4e9395ee04cd7d08de
 </code>
   </div>
 </div>

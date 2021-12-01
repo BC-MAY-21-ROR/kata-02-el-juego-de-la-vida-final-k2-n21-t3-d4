@@ -21,4 +21,9 @@ RSpec.describe '#Generate matrix' do
       end
     end
   end
+<<<<<<< HEAD
 end
+=======
+end
+
+>>>>>>> 4660df09b9c2feff1fdddc4e9395ee04cd7d08de
