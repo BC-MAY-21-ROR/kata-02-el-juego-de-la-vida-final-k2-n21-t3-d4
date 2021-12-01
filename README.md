@@ -1,26 +1,22 @@
-
 ![BrightCoders Logo](img/logo-bc.png)
 
-# Kata El Juego de la Vida. 
-## Iteración 02 Orientación a Objetos
+# Kata El Juego de la Vida.
 ![cover](img/cover.jpg)
-<span>Photo by <a href="https://unsplash.com/@coopery?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mohamed Nohassi</a> on <a href="https://unsplash.com/s/photos/life?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a href="https://unsplash.com/@ravi_roshan_inc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ravi Roshan</a> on <a href="https://unsplash.com/s/photos/life?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 ## Pre-requisitos
-- [Instalar y utilizar Rubocop](https://github.com/bright-coders/commons/tree/master/topics/rubocop)
+Para evaluar tu código e identificar posibles mejoras debes instalar y utilizar las siguientes herramientas:
+- [Rubocop](https://github.com/bright-coders/commons/tree/master/topics/rubocop)
 
 ## Nuevo requerimiento
-En esta ocasión  tu implementación deberá estar completamente orientada a objetos:
-- _ABSTRACCIÓN_. Probablemente el día de ayer trabajaste tu solución utilizando directamente un vector o matríz. Ahora deberás poner más atención en estructurar tu solución en abstracciones, es decir clases. Tu solución debe aplicar de manera correcta los principios de la programación orientada a objetos. 
-- _POLIMORFISMO_. Encuentra una forma de utilizar polimorfismo como una mejor solución a las banderas booleanas.
+Incorporarás las siguientes herramientas para evaluar la calidad de tu código
 
-Los siguientes enlaces te pueden dar algunas pistas de como cumplir con estos requerimientos:
-- [Back to Basics: SOLID](https://thoughtbot.com/blog/back-to-basics-solid)
-- [Refactoring: Replace Conditional with Polymorphism](https://thoughtbot.com/blog/refactoring-replace-conditional-with-polymorphism)
-- [The S.O.L.I.D Principles in Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
-- [SOLID & Ruby in 5 short examples](https://medium.com/rubycademy/solid-ruby-in-5-short-examples-353ea22f9b05)
-- [Replace Conditional with Polymorphism](https://refactoring.guru/replace-conditional-with-polymorphism)
-- [Kill the conditional in Ruby with polymorphism](https://medium.com/@anonyo/kill-the-if-statement-or-conditional-in-ruby-with-polymorphism-a3a6f1b64e8d)
+- [Rubycritic](https://github.com/bright-coders/commons/tree/master/topics/rubycritic)
+- [SandiMeter](https://github.com/makaroni4/sandi_meter)
+
+Estas herramientas te sirven para identificar diferentes aspectos que debes atender para que la calidad de tu código sea mejor.
+
+Para el caso de RubyCritic deberás obtener una puntuación mínima de 75.
 
 ## Requerimientos Funcionales
 Addapted from [Coding Dojo](https://codingdojo.org)
@@ -59,22 +55,36 @@ Generation 2:
 ...**...
 ........
 ```
-## Requerimientos no funcionales
+## Requerimientos no-funcionales
 - Calidad
   - Utilizar estilo de código definido por la comunidad (apoyarse en Rubocop)
-- Desempeño y escalabilidad
+  - Pruebas unitarias (TDD)
+  - Puntuación en Rubycritic por lo menos 75 en la carpeta de la App y por lo menos 65 en las pruebas
+  - Utilizar [SandiMeter](https://github.com/makaroni4/sandi_meter) para analizar el código y utilizar el resultado para hacer mejoras
+- Ejecución
   - Puede ejecutarse desde la linea de comandos y mostrar la salida en consola
 - Código fuente
-  - [Orientado a Objetos 
+  - Orientado a Objetos 
   - Métodos Pequeños
   - [Aplicar los principios SOLID](https://rubygarage.org/blog/solid-principles-of-ood)
+- Otros
+  - Incluir en el repositorio el [SmallBadge](https://github.com/jorge27/tutorial-rubycritic-small-badge) con la puntuación obtenida por RubyCritic
+  - Incluir en el repositorio el reporte HTML que genera [SandiMeter](https://github.com/makaroni4/sandi_meter)
+  - El repositorio debe reflejar el trabajo en equipo (en la conversación del repositorio, commits)
+  - Los commits de Git deben ser atómicos y significativos
+  - Actualizar [este archivo](setup/README.md) en donde se describa el proceso para hacer funcionar el proyecto 
   
 ## Tecnologías
 - Lenguaje de programación Ruby
+- Framework para pruebas [Rspec](https://rspec.info/) ó [Minitest](https://github.com/seattlerb/minitest)
+- Rubocop, RubyCritic y SandiMeter para calidad de código
 - Línea de comando
 
 ## Entregable
 - Código fuente en Github (en la rama master)
+
+## Setup
+En [este enlace](setup/README.md) se describen los pasos necesarios para ejecutar/probar este proyecto.
 
 ## Resources
 [Encuentra aquí una lista completa de recursos de ayuda](https://github.com/bright-coders/commons/tree/master/topics/resources)
